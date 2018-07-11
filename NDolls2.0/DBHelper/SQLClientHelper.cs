@@ -28,7 +28,7 @@ namespace NDolls
 
         public int ExecuteNonQuery(string cmdText, List<DbParameter> commandParameters,CommandType cmdType = CommandType.Text)
         {
-            return -1;
+            return -2;
         }
 
         public int ExecuteNonQuery(DbTransaction tran, string cmdText, List<DbParameter> commandParameters,CommandType cmdType = CommandType.Text)
